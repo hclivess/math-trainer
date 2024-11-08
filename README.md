@@ -2,9 +2,6 @@
 
 A simple and effective mathematics practice application built with pure HTML, CSS, and JavaScript. Perfect for both kids and adults to practice basic math operations.
 
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![Languages](https://img.shields.io/badge/languages-10+-orange.svg)
-
 ## ✨ Current Features
 
 ### Core Functionality
