@@ -1,165 +1,90 @@
 # 🧮 Math Practice Hub
 
-A fun and interactive platform for learning and practicing mathematics, designed for both children and adults. Practice essential math skills with adaptive difficulty levels and engaging exercises.
+A simple and effective mathematics practice application built with pure HTML, CSS, and JavaScript. Perfect for both kids and adults to practice basic math operations.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![Languages](https://img.shields.io/badge/languages-10+-orange.svg)
 
-## ✨ Features
+## ✨ Current Features
 
-### 🎯 Practice Modes
-- **Quick Practice**: Random problems for quick practice sessions
-- **Targeted Learning**: Focus on specific mathematical concepts
-- **Challenge Mode**: Test your skills against time
-- **Daily Exercises**: New set of problems each day
+### Core Functionality
+- Basic math operations:
+  - Addition (1-100)
+  - Subtraction (always positive results)
+  - Multiplication (1-10)
+- Instant feedback on answers
+- Progress tracking within session
+- Keyboard support (Enter to submit)
 
-### 📚 Topic Coverage
-- **Basic Operations**
-  - Addition (customizable ranges)
-  - Subtraction (with negative number options)
-  - Multiplication (basic to advanced)
-  - Division (including decimals)
+### User Interface
+- Clean, modern design
+- Mobile-responsive layout
+- Practice statistics:
+  - Correct answers
+  - Incorrect answers
+  - Accuracy percentage
 
-- **Advanced Topics**
-  - Fractions and Decimals
-  - Percentages
-  - Basic Algebra
-  - Geometry Basics
-
-### 🎨 User Experience
-- Clean, modern interface
-- Mobile-responsive design
-- Dark/Light mode toggle
-- Multiple language support (10+ languages)
-- Progress tracking
-- Achievement badges
-- Performance statistics
+### Language Support
+Currently supports 10 languages:
+- English
+- Čeština (Czech)
+- Deutsch (German)
+- Español (Spanish)
+- Français (French)
+- Italiano (Italian)
+- Polski (Polish)
+- Slovenčina (Slovak)
+- Українська (Ukrainian)
+- Русский (Russian)
 
 ## 🚀 Getting Started
 
-### Online Version
-Visit [https://mathpracticehub.com](https://mathpracticehub.com) to use directly in your browser.
-
-### Local Installation
-
+1. Clone the repository:
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/math-practice-hub.git
-
-# Navigate to project directory
-cd math-practice-hub
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
 ```
+
+2. Open `index.html` in your web browser
+
+That's it! No installation or dependencies required.
+
+## 💻 Usage
+
+1. Select your preferred language from the dropdown menu
+2. Problems will automatically appear one at a time
+3. Type your answer in the input field
+4. Press Enter or click the "Check" button to submit
+5. Receive instant feedback
+6. Next problem appears automatically
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Framework**: React.js
-- **Styling**: Tailwind CSS
-- **State Management**: React Context
-- **Storage**: Local Storage / Firebase
-- **Testing**: Jest, React Testing Library
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- No external dependencies
 
-## 📱 Screenshots
+## 📝 Project Structure
 
-![Dashboard](screenshots/dashboard.png)
-![Practice Mode](screenshots/practice.png)
-![Statistics](screenshots/stats.png)
-
-## 🎯 Target Audience
-
-### 👶 For Kids
-- Colorful, engaging interface
-- Progress rewards and badges
-- Sound effects and animations
-- Simpler problem sets
-- Parent monitoring features
-
-### 👨‍💼 For Adults
-- Clean, professional interface
-- Advanced difficulty options
-- Detailed performance analytics
-- Focus mode for concentration
-- Custom practice sets
-
-## 📊 Features by Age Group
-
-| Feature | Kids Mode | Adult Mode |
-|---------|-----------|------------|
-| Interface | Colorful, animated | Clean, minimal |
-| Difficulty | Progressive | Customizable |
-| Rewards | Badges, stars | Performance stats |
-| Problems | Basic operations | All operations |
-| Timer | Optional | Configurable |
-| Sound Effects | Yes | Optional |
-| Analytics | Basic | Detailed |
-
-## 🔄 Regular Updates
-
-- Weekly new problem sets
-- Monthly feature additions
-- Regular bug fixes
-- Community-requested features
+```
+math-practice-hub/
+├── index.html    # Main application file
+└── screenshots/  # Application screenshots
+```
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
+Found a bug or want to add a feature? Contributions are welcome!
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
-
-## 📝 Roadmap
-
-### Phase 1 (Current)
-- ✅ Basic operations
-- ✅ Multiple languages
-- ✅ Progress tracking
-- ✅ Mobile responsiveness
-
-### Phase 2 (Upcoming)
-- 🔄 Advanced topics
-- 🔄 User accounts
-- 🔄 Social features
-- 🔄 Teacher dashboard
-
-### Phase 3 (Planned)
-- 📅 Competitive mode
-- 📅 AI-powered assistance
-- 📅 Custom problem creation
-- 📅 Virtual classroom support
-
-## 🌟 Support
-
-- Create an issue
-- Join our [Discord community](https://discord.gg/mathpracticehub)
-- Email support: support@mathpracticehub.com
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 👥 Team
-
-- Sarah Johnson - Project Lead
-- Mike Chen - Lead Developer
-- Ana García - UX Designer
-- Dr. James Wilson - Math Education Consultant
-
-## 🙏 Acknowledgments
-
-- OpenSource Math Community
-- Educational advisors
-- Our amazing contributors
-- All our beta testers
+This project is licensed under the MIT License.
 
 ---
 
